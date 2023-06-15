@@ -1,0 +1,10 @@
+{
+  "lock": false,
+  "tasks": {
+    "start": "deno run -A --unstable ./src/app.ts",
+    "dev": "deno run -A --watch --unstable ./src/app.ts"
+  },
+  "fmt": {
+    "lineWidth": 120
+  }
+}
