@@ -7,7 +7,7 @@ This is tiny url shortener based on Deno Deploy & Deno KV
 Get id by long url
 
 ```shell
-GET https://litto.deno.dev/set/https://google/com
+GET https://litto.deno.dev/set/{url}
 ```
 
 Get url by id
