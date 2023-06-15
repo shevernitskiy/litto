@@ -4,7 +4,7 @@ This is tiny url shortener based on Deno Deploy & Deno KV
 
 ## Usage
 
-Creation id of the shorten url
+Get id by long url
 
 ```shell
 GET https://litto.deno.dev/set/https://google/com
