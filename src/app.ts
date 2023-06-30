@@ -33,7 +33,7 @@ async function get(id: string): Promise<Response> {
     return new Response("not found", { status: 404 });
   }
   console.log("GET", id, url);
-  return new Response(null, { status: 301, headers: { url } });
+  return new Response(null, { status: 301, headers: { location: url } });
 }
 
 async function findUrl(id: string): Promise<string | null> {
